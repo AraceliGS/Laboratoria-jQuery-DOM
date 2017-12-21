@@ -20,4 +20,17 @@ $( _ => {
   console.log(lista.eq(0).addClass('textColor').text());
   console.log(items.eq(0));
   //console.log(lista.children()[0]);
+/*
+  $('input').attr('disabled');
+  "disabled"
+  $('input').attr('data-key', 'un valor');
+  jQuery.fn.init [input, prevObject: jQuery.fn.init(1)]
+  $('input').attr('data-key', 'un valor');
+  jQuery.fn.init [input, prevObject: jQuery.fn.init(1)]
+  $('input').data('key');
+  "un valor"
+  $('input').data('name','nombre');
+  jQuery.fn.init [input, prevObject: jQuery.fn.init(1)]
+  $('input').data('name');
+  "nombre"*/
 });
